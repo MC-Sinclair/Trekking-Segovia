@@ -1,0 +1,78 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url(../img/pexels-ninjabakerr-19809373.jpg) no-repeat center center / cover fixed;
+            gap: 20px;
+        }
+        form{
+            width: 500px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 20px;
+            text-align: center;
+            background-color: #7f7f7f24;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 20px #232323ff;
+            backdrop-filter: blur(14px);
+        }
+        label{
+            font-size: 1.2rem;
+            color: white;
+        }
+        .more{
+            padding: 20px;
+            font-size: 1.2rem;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0px 10px 20px #464646ff;
+        }
+        h2{
+            color: #f18900;
+        }
+        #enviar{
+            padding: 10px;
+            background-color: #5a7aedff;
+            color: white;
+            border: none;
+            transition: 0.7s;
+        }
+        #enviar:hover{
+            transform: scale(1.05);
+        }
+        #enviar:focus{
+            background-color: #3e5cc8ff;
+        }
+        table {
+            width: 500px;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background-color: #7f7f7f24;
+            backdrop-filter: blur(14px); 
+            border-radius: 15px;
+            overflow: hidden; 
+            box-shadow: 0px 5px 20px #232323ff;
+            color: white;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        th {
+            background-color: rgba(255, 255, 255, 0.1);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
